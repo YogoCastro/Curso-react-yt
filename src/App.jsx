@@ -30,7 +30,7 @@ function App() {
   }, []);
 
   function onTaskClick(taskId) {
-    const newTasks = tasks.new.map((task) => {
+    const newTasks = tasks.map((task) => {
       //PRECISA ATUALIZAR ESSA TAREFA
       if (task.id == taskId) {
         return { ...task, isCompleted: !task.isCompleted };
