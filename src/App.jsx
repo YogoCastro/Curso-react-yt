@@ -26,7 +26,7 @@ function App() {
       setTasks(data);
     };
     // SE QUISER VOCÊ PODE CHAMAR UMA API PARA PEGAR AS TAREFAS \/
-    featTasks();
+    //featTasks();
   }, []);
 
   function onTaskClick(taskId) {
